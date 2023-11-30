@@ -11,6 +11,6 @@ jobs:
 
     steps:
       - name: Checkout Repository code ('${{ github.repository}}' cloned to the runner)
-        uses: action/checkout@v2
+        uses: actions/checkout@v2
 
 
